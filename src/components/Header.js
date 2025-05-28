@@ -1,11 +1,9 @@
-import React, { use } from 'react';
 import PropTypes from 'prop-types';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 const Header = ({ title = 'Agence de Voyages' }) => {
+    const location = useLocation();
 
-    const location = useLocation()
-    
     return (
         <header className="flex justify-between items-center mb-8 p-4 bg-blue-500 text-white">
             <h1 className="text-2xl">{title}</h1>
@@ -27,7 +25,7 @@ const Header = ({ title = 'Agence de Voyages' }) => {
 };
 
 Header.propTypes = {
-    title: PropTypes.string.isRequired
+    title: PropTypes.string
 };
 
 export default Header;
