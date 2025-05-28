@@ -1,0 +1,69 @@
+     {
+       "manytours": [
+         {
+           "id": 1,
+           "title": "Séjour à Paris",
+           "description": "Un voyage inoubliable à travers les monuments emblématiques de Paris.",
+           "price": 499,
+           "category": "Culture",
+           "imageUrl": "/images/paris.png"
+         },
+         {
+           "id": 2,
+           "title": "Aventure en Antelope Canyon",
+           "description": "Découvrez les formations rocheuses et les jeux de lumière d'Antelope en Arizona.",
+           "price": 799,
+           "category": "Aventure",
+           "imageUrl": "/images/canyon.png"
+         },
+         {
+           "id": 3,
+           "title": "Séjour balnéaire, Santa Marta, Colombie",
+           "description": "Savourez le sable chaud, les eaux turquoise et l’ambiance tropicale de la côte caraïbe.",
+           "price": 799,
+           "category": "Plage",
+           "imageUrl": "/images/tayrona.png"
+         },
+        {
+           "id": 4,
+           "title": "Circuit gastronomique, Montréal",
+           "description": "Goûtez à la poutine et aux saveurs locales dans une ambiance urbaine et chaleureuse.",
+           "price": 429,
+           "category": "Gastronomie",
+           "imageUrl": "/images/montreal.png"
+         },
+         {
+           "id": 5,
+           "title": "Escapade nature, Banff, Alberta",
+           "description": "Explorez les paysages des rocheuses canadiennes avec lacs turquoise et sommets enneigés.",
+           "price": 688,
+           "category": "Aventure",
+           "imageUrl": "/images/montreal.png"
+         },
+         {
+           "id": 6,
+           "title": "Aventure urbaine, New York",
+           "description": "Plongez dans l’énergie de la Big Apple entre gratte-ciels, musées et spectacles de Broadway.",
+           "price": 688,
+           "category": "Culture",
+           "imageUrl": "/images/montreal.png"
+         },
+         {
+           "id": 7,
+           "title": "Dégustation culinaire, La Nouvelle-Orléans",
+           "description": "Parcourez les rues historiques en savourant les spécialités créoles, cajuns et les beignets emblématiques.",
+           "price": 688,
+           "category": "Gastronomie",
+           "imageUrl": "/images/montreal.png"
+         },
+         {
+           "id": 8,
+           "title": "Évasion côtière, Îles de la Madeleine",
+           "description": "Profitez des plages de sable fin, des falaises rouges et du charme insulaire au cœur du golfe du Saint-Laurent.",
+           "price": 688,
+           "category": "Plage",
+           "imageUrl": "/images/montreal.png"
+         }
+       ]
+     }
+     

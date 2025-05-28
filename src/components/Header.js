@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { use } from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
 const Header = ({ title = 'Agence de Voyages' }) => {
+
+    const location = useLocation()
+    
     return (
         <header className="flex justify-between items-center mb-8 p-4 bg-blue-500 text-white">
             <h1 className="text-2xl">{title}</h1>
@@ -12,10 +15,10 @@ const Header = ({ title = 'Agence de Voyages' }) => {
                         <Link to="/" className="hover:underline">Accueil</Link>
                     </li>
                     <li>
-                        <Link to="/forfaits" className="hover:underline">Forfaits</Link>
+                        <Link to="/tours" className="hover:underline">Forfaits</Link>
                     </li>
                     <li>
-                        <Link to="/a-propos" className="hover:underline">À propos</Link>
+                        <Link to="/about" className="hover:underline">À propos</Link>
                     </li>
                 </ul>
             </nav>
